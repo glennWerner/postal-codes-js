@@ -689,13 +689,6 @@
         "alpha3": "IND",
         "numeric3": "356"
     },
-    "IC": {
-        "countryName": "Canary Islands",
-        "postalCodeFormat": "5Digits.json",
-        "alpha2": "IC",
-        "alpha3": "",
-        "numeric3": ""
-    },
     "ID": {
         "countryName": "Indonesia",
         "postalCodeFormat": "5Digits.json",
@@ -719,7 +712,6 @@
     },
     "IE": {
         "countryName": "Ireland",
-        "postalCodeFormat": "IE.json",
         "alpha2": "IE",
         "alpha3": "IRL",
         "numeric3": "372"
@@ -1159,7 +1151,7 @@
     },
     "PA": {
         "countryName": "Panama",
-        "postalCodeFormat": "4Digits.json",
+        "postalCodeFormat": "6Digits.json",
         "alpha2": "PA",
         "alpha3": "PAN",
         "numeric3": "591"
@@ -1630,7 +1622,7 @@
     },
     "VN": {
         "countryName": "Viet Nam",
-        "postalCodeFormat": "5Digits.json",
+        "postalCodeFormat": "6Digits.json",
         "alpha2": "VN",
         "alpha3": "VNM",
         "numeric3": "704"
