@@ -79,7 +79,6 @@
     "IT",
     "JO",
     "KE",
-    "KH",
     "KR",
     "KW",
     "LA",
@@ -208,6 +207,9 @@
   ],
   "JE.json": [
     "JE"
+  ],
+  "KH.json": [
+    "KH"
   ],
   "KY.json": [
     "KY"
