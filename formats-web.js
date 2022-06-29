@@ -33,6 +33,7 @@ formats["IE.json"] = require("./formats/IE.json");
 formats["IM.json"] = require("./formats/IM.json");
 formats["IO.json"] = require("./formats/IO.json");
 formats["JE.json"] = require("./formats/JE.json");
+formats["KH.json"] = require("./formats/KH.json");
 formats["KY.json"] = require("./formats/KY.json");
 formats["LB.json"] = require("./formats/LB.json");
 formats["LC.json"] = require("./formats/LC.json");
