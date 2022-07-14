@@ -120,6 +120,7 @@
     "EC",
     "IN",
     "KG",
+    "KH",
     "KZ",
     "NG",
     "PA",
@@ -207,9 +208,6 @@
   ],
   "JE.json": [
     "JE"
-  ],
-  "KH.json": [
-    "KH"
   ],
   "KY.json": [
     "KY"
