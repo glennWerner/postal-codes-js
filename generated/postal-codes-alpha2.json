@@ -249,7 +249,7 @@
     },
     "KH": {
         "countryName": "Cambodia",
-        "postalCodeFormat": "KH.json",
+        "postalCodeFormat": "6Digits.json",
         "alpha2": "KH",
         "alpha3": "KHM",
         "numeric3": "116"
