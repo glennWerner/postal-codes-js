@@ -1,0 +1,17 @@
+{
+  "Description": "IL",
+  "RedundantCharacters": " -",
+  "ValidationRegex": "(^[0-9]{5}$)|(^[0-9]{7}$)",
+  "ValidationRegex.DOC": "https://en.wikipedia.org/wiki/Postal_codes_in_Israel",
+  "TestData": {
+    "Valid": [
+      "12345",
+      "1234567"
+    ],
+    "Invalid": [
+      "A1234",
+      "123456",
+      "12345678"
+    ]
+  }
+}
