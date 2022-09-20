@@ -45,8 +45,16 @@ function generateMappings() {
         byAlpha3[alpha3] = countrySpecificData;
     });
 
-    fs.writeFile(path.join(basePath,'../generated/postal-codes-alpha2.json'), JSON.stringify(byAlpha2, null, "    "));
-    fs.writeFile(path.join(basePath,'../generated/postal-codes-alpha3.json'), JSON.stringify(byAlpha3, null, "    "));
+    fs.writeFile(path.join(basePath,'../generated/postal-codes-alpha2.json'), JSON.stringify(byAlpha2, null, "    "), (err) => {
+        if (err) {
+            console.log(err);
+        }
+    });
+    fs.writeFile(path.join(basePath,'../generated/postal-codes-alpha3.json'), JSON.stringify(byAlpha3, null, "    "), (err) => {
+        if (err) {
+            console.log(err);
+        }
+    });
 }
 
 generateMappings();

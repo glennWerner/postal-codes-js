@@ -50,5 +50,34 @@ postalCodes.validate('CH');
 ## Contribution
 Contributions are more than welcome, just fork the repo and create a pull-request ;)
 
+### Checking if a country code is covered or not
+```
+cd ~/src/postal-codes
+npm install
+node build/generate-mappings.js
+```
+
+### Adding a new country/postalCode format
+```
+1. Check if the country is already covered or not under a format in
+/mappings/alpha2-to-formats.json
+
+2. Remove that country from the list nested under a format
+
+3. Define a new format for the country - usually its alpha2 name under
+/formats
+
+4. Define the country's code removed in step 2 under the new format that 
+was newly created, for example:
+
+"IL.json": [
+  "IL"
+],
+
+and add it to the list in alphabetical order. 
+
+5. Run  node build/generate-mappings.js
+```
+
 ## Contact
 PostalCodesJS@cimpress.com
