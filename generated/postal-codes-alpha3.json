@@ -725,7 +725,7 @@
     },
     "ISR": {
         "countryName": "Israel",
-        "postalCodeFormat": "7Digits.json",
+        "postalCodeFormat": "IL.json",
         "alpha2": "IL",
         "alpha3": "ISR",
         "numeric3": "376"
