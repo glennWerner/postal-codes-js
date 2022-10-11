@@ -16,7 +16,6 @@
     "AF",
     "AL",
     "AM",
-    "AR",
     "AT",
     "AU",
     "BD",
@@ -150,6 +149,9 @@
   ],
   "AQ.json": [
     "AQ"
+  ],
+  "AR.json": [
+    "AR"
   ],
   "AX.json": [
     "AX"

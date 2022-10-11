@@ -69,7 +69,7 @@
     },
     "AR": {
         "countryName": "Argentina",
-        "postalCodeFormat": "4Digits.json",
+        "postalCodeFormat": "AR.json",
         "alpha2": "AR",
         "alpha3": "ARG",
         "numeric3": "32"

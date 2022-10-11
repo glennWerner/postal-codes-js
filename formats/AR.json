@@ -1,0 +1,19 @@
+{
+    "Description": "AR",
+    "RedundantCharacters": " -",
+    "ValidationRegex": "(^[a-z]{1}\\d{4}[a-z]{3}$|^\\d{4}$|^[a-z]{1}[0-9]{0,4}$)",
+    "TestData": {
+      "Valid": [
+        "1234",
+        "B1234",
+        "B1234AAA"
+      ],
+      "Invalid": [
+        "01234",
+        "123456",
+        "12345678",
+        "AAAA",
+        "B123"
+      ]
+    }
+  }
